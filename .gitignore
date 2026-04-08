@@ -1,0 +1,2 @@
+# Bỏ qua file theo dõi tiến độ học tập của người dùng, không public lên git
+data/learned_items.json
