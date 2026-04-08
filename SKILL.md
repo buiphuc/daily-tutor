@@ -1,11 +1,11 @@
 ---
 name: daily-tutor
-version: "1.0.2"
+version: "1.0.3"
 description: "Get new study items for any subject. Use when: user asks for a daily lesson or new learning content. Supports any data format (language vocab, math formulas, history events, etc.). Automatically tracks learned items so they never repeat."
 metadata:
   {
     "openclaw": {
-      "emoji": "🧑‍🏫",
+      "emoji": "📚",
       "requires": { "bins": ["python3"] }
     }
   }

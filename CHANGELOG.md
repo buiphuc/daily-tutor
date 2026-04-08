@@ -5,6 +5,10 @@ All notable changes to the **Daily Tutor** skill will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-04-08
+### Fixed
+- Replaced the Teacher emoji with a single-codepoint Books emoji (`📚`) in `SKILL.md` metadata to prevent false-positive "unicode control character" security alerts on ClawHub (the Teacher emoji inherently uses a Zero-Width Joiner control character).
+
 ## [1.0.2] - 2026-04-08
 ### Added
 - Linked the GitHub repository and README file directly to `SKILL.md` to ensure users on Clawhub can find the detailed instructions easily.
