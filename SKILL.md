@@ -1,6 +1,6 @@
 ---
 name: daily-tutor
-version: "1.0.1"
+version: "1.0.2"
 description: "Get new study items for any subject. Use when: user asks for a daily lesson or new learning content. Supports any data format (language vocab, math formulas, history events, etc.). Automatically tracks learned items so they never repeat."
 metadata:
   {
@@ -12,6 +12,8 @@ metadata:
 ---
 
 # Daily Tutor Skill
+
+📖 **For full user instructions, data setup guides, and Quizbuild MCP configurations, please read the [Official README on GitHub](https://github.com/buiphuc/daily-tutor#readme).**
 
 This skill retrieves new learning items from the user's study list (`data/data.json`) that they have not learned yet. It works with **any subject** — the data structure is automatically detected.
 
