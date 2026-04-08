@@ -1,6 +1,6 @@
 ---
 name: daily-tutor
-version: "1.0.3"
+version: "1.0.4"
 description: "Get new study items for any subject. Use when: user asks for a daily lesson or new learning content. Supports any data format (language vocab, math formulas, history events, etc.). Automatically tracks learned items so they never repeat."
 metadata:
   {
@@ -59,7 +59,7 @@ python3 ${OPENCLAW_SKILL_ROOT}/scripts/get_words.py
 
 The output of `get_words.py` will be a raw list of items with all their fields.
 **When you receive the output:**
-1. Process the items exactly as instructed by the user's prompt or the automated Cron job orchestrating this skill. Ensure you present the output in Vietnamese.
+1. Process the items exactly as instructed by the user's prompt or the automated Cron job orchestrating this skill.
 2. **OPTIONAL:** If you have access to the `quizbuild` tool, you can generate a short practice quiz based on the newly retrieved study items. When calling `quizbuild__auto_create_exam`, you follow this parameter structure:
 ```json
 {
